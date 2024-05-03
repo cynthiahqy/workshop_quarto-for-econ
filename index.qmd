@@ -5,9 +5,13 @@ subtitle: "BEX5481 Workshop (May 3 and May 10, 2024)"
 
 ## Pre-Workshop Tasks
 
-See Moodle Announcement for tasks to complete before the workshop.
+See Moodle Announcement / Pre-Work for tasks to complete before the workshop.
 
 ## Schedule
 
 - May 3: Intro to Quarto
 - May 10: AEA Replication Standards
+
+## Additional Resources
+
+- Quarto Wiki Template: <https://github.com/cynthiahqy/quarto-wiki-template>
