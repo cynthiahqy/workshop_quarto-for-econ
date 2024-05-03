@@ -1,0 +1,9 @@
+## 2024-05-03
+
+- Quarto refresher
+- AEA replication package
+- Personal Website
+- Drag & Drop publishing
+- Further Resources
+    - reproducibility tools (Turing Way)
+    - Monash Data Fluency

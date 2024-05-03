@@ -1,0 +1,78 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "index.qmd"
+    - "about.qmd"
+    - "00-pre-workshop.qmd"
+    - "01*/*.qmd"
+    - "02*/*.qmd"
+    - "!exercises"
+  resources:
+    - "exercises/**/*"
+
+execute:
+  freeze: auto
+
+website:
+  page-navigation: true
+  # title: "Meeting AEA Replication standards using Quarto"
+  # description: ""
+
+  # repo-url: https://github.com/cynthiahqy/monash-quarto-aea
+  # repo-actions: [edit, issue]
+
+  open-graph: true
+  twitter-card:
+    creator: "@cynthiahqy"
+
+  sidebar:
+    pinned: true
+    align: center
+    style: docked
+    search: true
+    collapse-level: 2
+
+    # tools:
+    #   - icon: github
+    #     href: https://github.com/cynthiahqy/monash-quarto-aea
+    #     text: "GitHub organization"
+
+    contents:
+      - href: index.qmd
+        text: Home
+      - href: 00-pre-workshop.qmd
+        text: Pre-work
+      - text: "---"
+      - section: "Getting to Know Quarto"
+        contents:
+          - href: 01a-hello-quarto/index.qmd
+            text: Hello Quarto!
+          - href: 01b-formats/index.qmd
+            text: Document Formats
+          - href: 01c-wrap-up/index.qmd
+            text: Wrap-up
+      - text: "---"
+      - section: "AEA Replication in Quarto"
+        contents:
+          - text: Quarto Refresher
+            href: 02a-quarto-refresher/index.qmd
+          - text: Replication Package Template
+            href: 02b-template/index.qmd
+          - text: Websites
+            href: 02c-websites-pt1/index.qmd
+          - text: Wrap-up
+            href: 02d-wrap-up/index.qmd
+
+  page-footer:
+    right: "This page is built with 💚 and [Quarto](https://quarto.org/)."
+    left: "&copy; Copyright 2023, Cynthia Huang"
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmos
+    toc: true
+    code-copy: true
+    code-overflow: wrap

@@ -1,0 +1,47 @@
+{
+  "00-pre-workshop.qmd": {
+    "00-pre-workshop.html": "ea329846"
+  },
+  "index.qmd": {
+    "index.html": "8a2b22d5"
+  },
+  "01a-hello-quarto/index.qmd": {
+    "index.html": "7ea098db"
+  },
+  "01a-hello-quarto/slides.qmd": {
+    "slides.html": "4c2c72bd"
+  },
+  "01b-formats/index.qmd": {
+    "index.html": "29defb10"
+  },
+  "01b-formats/slides.qmd": {
+    "slides.html": "86f54f03"
+  },
+  "01c-wrap-up/index.qmd": {
+    "index.html": "cfb724ca"
+  },
+  "01c-wrap-up/slides.qmd": {
+    "slides.html": "850ec7bb"
+  },
+  "02a-template/index.qmd": {
+    "index.html": "154980e4"
+  },
+  "02a-template/slides.qmd": {
+    "slides.html": "4ce48a68"
+  },
+  "02b-includes/index.qmd": {
+    "index.html": "064518dd"
+  },
+  "02c-refs/index.qmd": {
+    "index.html": "daf399c0"
+  },
+  "02c-websites-pt1/index.qmd": {
+    "index.html": "dade6d52"
+  },
+  "02c-websites-pt1/slides.qmd": {
+    "slides.html": "bceb6e7e"
+  },
+  "02d-wrap-up/index.qmd": {
+    "index.html": "fc42e29f"
+  }
+}

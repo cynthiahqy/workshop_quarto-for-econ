@@ -1,0 +1,22 @@
+---
+title: "Wrap-Up"
+subtitle: "Session 1: Getting to know Quarto"
+# date: 2023-07-18
+format: revealjs
+metadata-files: 
+  - ../_slides.yml
+---
+
+{{< include ../01a-hello-quarto/_wrap-up.qmd >}}
+
+{{< include ../01b-formats/_wrap-up.qmd >}}
+
+# Next Week
+
+- make sure can render in Quarto locally
+  - try PDF articles
+- bring ideas for your personal website
+- review the following AEA resources:
+  - [Data and Code Availability Policy](https://www.aeaweb.org/journals/data/data-code-policy)
+  - [Data Legality Policy](https://www.aeaweb.org/journals/data/data-legality-policy)
+  - [Replication Package Instructions](https://aeadataeditor.github.io/aea-de-guidance/)
