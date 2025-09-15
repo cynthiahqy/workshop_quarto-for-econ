@@ -1,6 +1,6 @@
 ---
 title: "Reproducibility in Economics Research"
-subtitle: "BEX5481 Workshop (May 3 and May 10, 2024)"
+subtitle: "BEX5482 Workshop (Sep 16 & Sep 23, 2026)"
 ---
 
 ## Pre-Workshop Tasks
@@ -9,9 +9,9 @@ See Moodle Announcement / Pre-Work for tasks to complete before the workshop.
 
 ## Schedule
 
-- May 3: Intro to Quarto
-- May 10: AEA Replication Standards
+- Sep 16: Intro to Quarto
+- Sep 23: AEA Replication Standards
 
-## Additional Resources
+<!-- ## Additional Resources
 
-- Quarto Wiki Template: <https://github.com/cynthiahqy/quarto-wiki-template>
+- Quarto Wiki Template: <https://github.com/cynthiahqy/quarto-wiki-template> -->

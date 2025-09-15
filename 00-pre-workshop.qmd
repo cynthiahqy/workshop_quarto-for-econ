@@ -6,7 +6,7 @@ title: "Pre-Work"
 
 -   Download or update the latest versions of Quarto and git:
 
-    -   Quarto `1.3.433` or above: <https://quarto.org/docs/get-started>
+    -   Quarto `1.6` or above: <https://quarto.org/docs/get-started>
 
     -   Git `2.37.1` or above: <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>
 
@@ -14,12 +14,13 @@ title: "Pre-Work"
 
 [^2]: For more detailed instructions see this [guide](https://happygitwithr.com/github-acct.html)
 
--   Install VSCode:
-
+-   Install Positron or VSCode:
+    -   Positron: <https://positron.posit.co/>
     -   VSCode: <https://quarto.org/docs/get-started/hello/vscode.html#overview>
-        -   make sure you also install the Quarto extension:
+        -   make sure you also install the Quarto extension
 
 
 ## Cloud Development using GitHub Codespaces
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/cynthiahqy/demo-quarto-container?quickstart=1)
+Link provided in class
+<!-- [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/cynthiahqy/demo-quarto-container?quickstart=1) -->
