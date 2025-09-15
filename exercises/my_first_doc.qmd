@@ -1,0 +1,43 @@
+---
+title: "Untitled"
+author: "Cynthia Huang"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Markdown Features
+
+To learn more markdown basics for simple text formatting see <https://quarto.org/docs/authoring/markdown-basics.html>. You can also:
+
+-   use Rstudio \> Help \> Markdown Quick Reference.
+-   Rstudio \> Visual *mode* \> Format
+
+| Col1 | Col2    | Col3 |
+|------|---------|------|
+| some | content | in   |
+| a    | table   |      |
+|      |         |      |
+
+: my first table
+
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+#### Font Style & Lists
+
+-   **bold**
+
+-   *italics*
+
+-   `code`
+
+## Links
+
+<https://r4ds.hadley.nz/quarto.html>
