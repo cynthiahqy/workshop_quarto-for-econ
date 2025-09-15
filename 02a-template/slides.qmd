@@ -150,8 +150,7 @@ The Social Science Data Editors also maintain a [template README](https://social
     - Download a copy, 
     - open with GitHub Desktop,
     - or clone via Command Line
--   Make an Rproject in the template
--   Render the website
+-   Open in VSCode and have a look what files are in the template
 :::
 
 ![](images/use-github-template.png)
@@ -270,19 +269,10 @@ format:
     toc: true
 ```
 
-## Your Turn: replication-pkg/
+## Our Turn: Rendering Quarto Replication Website
 
-::: task
-- Add at least one file to these template folders:
-  - code/
-  - data/
-  - paper/
-- Modify at least one section in the README.qmd using a Quarto feature you've learnt today.
-- Render README.qmd
+::: follow
+- Open up the `quarto-replication` template project again.
+- Render the website using the `Quarto: Render Project` command
+- Preview the website
 :::
-
-```{r}
-#| echo: false
-
-countdown(minutes = 15)
-```

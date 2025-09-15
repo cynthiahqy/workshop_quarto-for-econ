@@ -55,10 +55,8 @@ website:
       - text: "---"
       - section: "AEA Replication in Quarto"
         contents:
-          - text: Quarto Refresher
-            href: 02a-quarto-refresher/index.qmd
           - text: Replication Package Template
-            href: 02b-template/index.qmd
+            href: 02a-template/index.qmd
           - text: Websites
             href: 02c-websites-pt1/index.qmd
           - text: Wrap-up

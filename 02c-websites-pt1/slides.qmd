@@ -14,7 +14,107 @@ metadata-files:
 #| file: ../_slides-setup.R
 ```
 
-# Websites are Projects
+# Your First Website
+
+## Making a New Website in VSCode
+
+::: {.columns}
+::: {.column}
+::: follow
+- Open VSCode and go to the Command Palette
+- Select `Quarto: Create Project` > `Website Project`,
+- Follow the prompts
+- Render and Preview your new website
+:::
+:::
+::: {.column}
+
+```{.terminal filename="my_first_website/"}
+.
+├── _quarto.yml
+├── about.qmd
+├── index.qmd
+└── styles.css
+```
+:::
+:::
+
+::: footnote
+For more help see the [Creating a Website](https://quarto.org/docs/websites/) guide in the Official Quarto docs
+:::
+
+## Modify the About Page
+
+Quarto has some built in templates for "About You" pages. Let's add some information about you to `about.qmd`
+
+::: {.columns}
+::: {.column}
+```{.yaml}
+title: "Finley Malloc"
+about:
+  template: jolla
+  image: profile.jpg
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com
+    - icon: github
+      text: Github
+      href: https://github.com
+```
+:::
+::: {.column}
+::: follow
+- Open `about.qmd` in your new website project
+- Modify the content
+- Re-render and Preview your website
+:::
+:::
+:::
+
+
+::: footnote
+See [About pages](https://quarto.org/docs/websites/website-about.html) Guide for more details
+:::
+
+# Publishing your Website
+
+## Our Turn: Drag & Drop
+
+::: follow
+Let's Drag and Drop our `docs` or `_site` folder instead!
+
+[🔗 Netlify Drop](https://app.netlify.com/drop)
+:::
+
+## Netlify Drop
+
+:::{layout-ncol="2"}
+#### Pros
+
+- Easy and straight forward
+- So so quick!
+- Free!
+
+#### Cons
+
+- Link expires in 24 hours if you don't sign up
+- Updating has to be done manually
+- No version control
+
+:::
+
+See also: [Section 6.2 of _Authoring Books with R Markdown_](https://bookdown.org/yihui/bookdown/netlify-drop.html)
+
+## Alternative Methods
+
+[🔗 quarto.org/docs/publishing/](https://quarto.org/docs/publishing/)
+
+```{=html}
+<iframe src="https://quarto.org/docs/publishing/" width="100%" height="500" style="border:2px solid #123233;" title="Quarto Publishing Guide"></iframe>
+```
+
+# Websites are Quarto Projects
 
 ## Anatomy of a Quarto Website {.smaller}
 
@@ -215,7 +315,17 @@ project:
 
 For a full list of available options see [quarto.org \> Reference \> Projects \> Websites](https://quarto.org/docs/reference/projects/websites.html). Include these options under the `website:` field.
 
-## Your Turn: Website Options {.smaller}
+## Add Pages to the Navigation
+
+::: follow
+- Reopen the replication packge template
+- Add the file `replication-pkg/README.qmd` as a page to the sidebar. You will need:
+  - to change the file format from `gfm` to `html`
+  - make sure the file is targeted when the projec renders (add to `render` if not)
+  - add a `href` link to the file in the `contents` option of `sidebar`
+:::
+
+## Your Turn: Website Options {.smaller} {visibility="hidden"}
 
 ::: task
 Open up the workshop website.
@@ -265,20 +375,9 @@ website:
             text: Hello Quarto!
 ```
 
-## Our Turn: Rendering Quarto Replication Website
-
-::: follow
-- Open up the `quarto-replication` template project again.
-- Render and preview the website using `quarto::quarto_render()` and `quarto::quarto_preview()`
-- Add the file `replication-pkg/README.qmd` as a page the sidebar. You will need:
-  - to change the file format from `gfm` to `html`
-  - make sure the file is targeted when the projec renders (add to `render` if not)
-  - add a `href` link to the file in the `contents` option of `sidebar`
-:::
-
 <!--- 15 mins --->
 
-## Your Turn: Customising your Replication Website
+## Your Turn: Customising your Website {visibility="hidden"}
 
 ::: task
 - What happens if you add `href` link to the sidebar without specifying `text`?
@@ -291,3 +390,4 @@ website:
 
 countdown(minutes = 10)
 ```
+

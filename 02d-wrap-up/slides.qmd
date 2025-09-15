@@ -1,0 +1,12 @@
+---
+title: "Wrap-Up"
+subtitle: "Session 2: AEA Replication in Quarto"
+# date: 2023-07-18
+format: revealjs
+metadata-files: 
+  - ../_slides.yml
+---
+
+{{< include ../02a-template/_wrap-up.qmd >}}
+
+{{< include ../02c-websites-pt1/_wrap-up.qmd >}}
