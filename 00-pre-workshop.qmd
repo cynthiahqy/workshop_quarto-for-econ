@@ -22,5 +22,4 @@ title: "Pre-Work"
 
 ## Cloud Development using GitHub Codespaces
 
-Link provided in class
-<!-- [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/cynthiahqy/demo-quarto-container?quickstart=1) -->
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/cynthiahqy/demo-quarto-container?quickstart=1)
