@@ -1,4 +1,6 @@
 - source: project
   quarto-pub:
     - id: 7c373178-401a-4a50-a58d-9632df203374
-      url: 'https://cynthiahuang.quarto.pub/monash-bex5481'
+      url: https://cynthiahuang.quarto.pub/monash-bex5481
+    - id: b1fbd2a5-d902-490b-bcbb-18867adf514e
+      url: https://cynthiahqy.quarto.pub/2025-quarto-monash-bex5482

@@ -6,7 +6,7 @@ project:
     - "about.qmd"
     - "00-pre-workshop.qmd"
     - "01*/*.qmd"
-    - "02*/*.qmd"
+    # - "02*/*.qmd"
     - "!exercises"
   resources:
     - "exercises/**/*"
@@ -54,17 +54,17 @@ website:
             text: Wrap-up
       - text: "---"
       - section: "AEA Replication in Quarto"
-        contents:
-          - text: Replication Package Template
-            href: 02a-template/index.qmd
-          - text: Websites
-            href: 02c-websites-pt1/index.qmd
-          - text: Wrap-up
-            href: 02d-wrap-up/index.qmd
+        # contents:
+        #   - text: Replication Package Template
+        #     href: 02a-template/index.qmd
+        #   - text: Websites
+        #     href: 02c-websites-pt1/index.qmd
+        #   - text: Wrap-up
+        #     href: 02d-wrap-up/index.qmd
 
   page-footer:
     right: "This page is built with 💚 and [Quarto](https://quarto.org/)."
-    left: "&copy; Copyright 2023, Cynthia Huang"
+    left: "&copy; Copyright 2025, Cynthia Huang"
 
 bibliography: references.bib
 
