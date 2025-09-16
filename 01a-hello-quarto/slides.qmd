@@ -1,7 +1,7 @@
 ---
 title: "Hello Quarto"
 subtitle: "Session 1: Getting to know Quarto"
-date: 2024-05-03
+date: 2025-09-16
 format: revealjs
 metadata-files: 
   - ../_slides.yml
@@ -15,22 +15,21 @@ metadata-files:
 
 # Welcome
 
-## About Me - Cynthia Huang
+## About Me: Cynthia Huang
 
 ::: {layout-ncol="2"}
-![](images/Cynthia_Huang.jpg)
+![](images/Cynthia_Huang.jpg){style="border-radius:50%" height=300px}
 
--   **Currently:** PhD candidate in EBS
--   **Previously:** Economics at Unimelb, SoDa Labs
+-   **Currently:** Research Fellow in EBS Monash _(soon to be LMU Munich)_
+-   **Previously:** Economics at Unimelb & SoDa Labs Monash
 -   Passionate about research workflows, communication and transparency
 :::
 
 ## About the Tools
 
 -   [Quarto](https://quarto.org) for collating scientific and technical research inputs into polished documents
--   [VSCode](https://code.visualstudio.com) for editing and rendering Quarto documents and websites
+-   [Positron](https://positron.posit.co/) or [VSCode](https://code.visualstudio.com) for editing and rendering Quarto documents and websites
 -   [git](https://git-scm.com) and [GitHub](https://github.com) for publishing your Quarto website
--   (optional) [RStudio](https://posit.co/products/open-source/rstudio/)
 -   (optional) R, python, or Julia
 
 ## Workshop Goals {.small}
@@ -99,7 +98,7 @@ Tell me your:
 
 ## Quarto ...
 
--   is a new, open-source, scientific, and technical publishing system built on [Pandoc](https://pandoc.org/)
+-   is an open-source, scientific, and technical publishing system built on [Pandoc](https://pandoc.org/)
 
 ![Artwork from "Hello, Quarto" keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst.](images/horst_quarto_schematic.png){fig-alt="A schematic representing the multi-language input (e.g. Python, R, Observable, Julia) and multi-format output (e.g. PDF, html, Word documents, and more) versatility of Quarto." fig-align="center"}
 
@@ -122,7 +121,7 @@ Tell me your:
 ![](https://quarto.org/docs/computations/images/python-vscode.png){.fragment fig-alt="A screenshot of a Quarto document rendered inside VSCode" width="1200"}
 :::
 
-## My Turn: A Tour of Quarto in VSCode
+## My Turn: A Tour of Quarto in Positron
 
 <!--- TODO: MY TURN --->
 
@@ -161,13 +160,17 @@ we won't go in-depth with markdown features, but explore and ask questions!
 -   Take note of any features you would like to know more about.
 :::
 
-## Rendering Options in VSCode
+## Rendering Options in Positron/VSCode
 
-1. **Option 1:** Press the Render button
+1. **Option 1:** Press the Preview button
 
 . . .
 
-2. **Option 2:** In the Terminal via `quarto render`:
+2. **Option 2:** Use `Quarto: Render Document` from Command Palette (⇧⌘P / Ctrl+Shift+P)
+
+. . .
+
+2. **Option 3:** In the Terminal via `quarto render`:
 
 ```{bash}
 #| eval: false

@@ -14,9 +14,8 @@ metadata-files:
 # Next Week
 
 - make sure can render in Quarto locally
-  - try PDF articles
+  - try rendering to latex or PDF
 - bring ideas for your personal website
 - review the following AEA resources:
   - [Data and Code Availability Policy](https://www.aeaweb.org/journals/data/data-code-policy)
-  - [Data Legality Policy](https://www.aeaweb.org/journals/data/data-legality-policy)
   - [Replication Package Instructions](https://aeadataeditor.github.io/aea-de-guidance/)
